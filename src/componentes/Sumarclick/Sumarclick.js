@@ -1,0 +1,22 @@
+import { useState } from "react";
+
+export const Sumarclick=() =>{
+   // estado para mostar el number
+    const [number, SetNumber]=useState(0);
+            // metodo o funcion para sumar
+            const sumar=()=>{
+            // para sumar mas 1
+            SetNumber(number+1);
+            }
+return (
+<div className="">
+    <h1> Suma Automatica</h1>
+    <p>Se Sumara la hacer click en un button sumar</p>
+    <h2> {number} </h2>
+
+<button onClick={sumar} >Sumar</button>
+<button onClick={sumar} >Restar</button>
+</div>
+
+)
+}
