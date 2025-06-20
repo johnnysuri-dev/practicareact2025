@@ -14,8 +14,8 @@ return (
     <p>Se Sumara la hacer click en un button sumar</p>
     <h2> {number} </h2>
 
-<button onClick={sumar} >Sumar</button>
-<button onClick={sumar} >Restar</button>
+<button className="btn btn-primary" onClick={sumar} >Sumar</button> <br></br><br></br>
+<button className="btn btn-success"  onClick={sumar} >Restar</button>
 </div>
 
 )
